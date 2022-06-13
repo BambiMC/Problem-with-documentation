@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "allowJs": true,
+        "noEmit": true,
+        "types": [
+            "cypress",
+            "cypress-xpath"
+        ],
+        "baseUrl": "./modules"
+    },
+    "files": [
+        "support/testModules/OrgStrModules.d.ts"
+    ],
+    "include": [
+        "**/*"
+    ]
+}

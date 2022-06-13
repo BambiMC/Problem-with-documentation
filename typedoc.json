@@ -1,0 +1,11 @@
+{
+  "entryPoints": "cypress/support/testModules/orgStrModules.d.ts",
+  "out": "doc",
+  "tsconfig": "cypress/tsconfig.json",
+
+  "excludeInternal": false,
+  "excludeExternals": false,
+
+  "externalPattern": ["**/node_modules/**"],
+  "exclude": ["**/cypress/{downloads,fixtures}/*"]
+}
